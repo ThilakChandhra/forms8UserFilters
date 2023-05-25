@@ -1,0 +1,19 @@
+{% load ufilters %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <i><h1>filters</h1></i>
+        <h3>{{data}}</h3>
+        <h2>{{data|swapping}}</h2>
+        <h2>{{data|remove:'O'}}</h2>
+        <h2>{{data|counting:'O'}}</h2>
+    </center>
+</body>
+</html>
